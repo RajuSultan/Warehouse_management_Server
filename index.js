@@ -18,9 +18,7 @@ app.get('/', (req, res) => {
 app.get('/hero', (req, res) => {
     res.send("Connect With Heroku");
 });
-app.get('/test', (req, res) => {
-    res.send("Connect With test");
-});
+
 
 
 
