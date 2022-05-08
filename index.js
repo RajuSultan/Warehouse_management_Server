@@ -15,9 +15,9 @@ app.use(express.json());
 app.get('/', (req, res) => {
     res.send("Running My Curd Server");
 });
-// app.get('/hero', (req, res) => {
-//     res.send("Connect With Heroku");
-// });
+app.get('/hero', (req, res) => {
+    res.send("Connect With Heroku");
+});
 
 
 
